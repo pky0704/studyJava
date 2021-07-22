@@ -1,3 +1,6 @@
+/*
+ * 반환값이 있는 메서드를 반환값이 없는 메서드로 바꾸기  
+ */
 package chap06;
 
 public class Ex13 {
@@ -16,7 +19,7 @@ public class Ex13 {
 		return a+b;
 	}
 	void add(int a, int b, int[] result) {
-		result[0] = a +b; // 매개변수로 넘겨받은 배열에 연산결과를 저장 
+		result[0] = a +b; // 매개변수로 넘겨받은 배열에 연산결과를 저장
 	}
 
 }
